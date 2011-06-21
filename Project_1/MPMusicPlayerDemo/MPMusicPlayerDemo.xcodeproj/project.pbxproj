@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C219D3613AB8624004362DE /* PlaylistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C219D3413AB8624004362DE /* PlaylistTableViewCell.m */; };
+		4C219D3C13AB8646004362DE /* PlaylistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C219D3A13AB8646004362DE /* PlaylistTableViewController.m */; };
+		4C219D3D13AB8646004362DE /* PlaylistTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C219D3B13AB8646004362DE /* PlaylistTableViewController.xib */; };
+		4C53F9F413AAC83C007C349E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53F9F313AAC83C007C349E /* UIKit.framework */; };
+		4C53F9F613AAC83C007C349E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53F9F513AAC83C007C349E /* Foundation.framework */; };
+		4C53F9F813AAC83C007C349E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53F9F713AAC83C007C349E /* CoreGraphics.framework */; };
+		4C53F9FE13AAC83C007C349E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C53F9FC13AAC83C007C349E /* InfoPlist.strings */; };
+		4C53FA0113AAC83C007C349E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C53FA0013AAC83C007C349E /* main.m */; };
+		4C53FA0413AAC83C007C349E /* MPMusicPlayerDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C53FA0313AAC83C007C349E /* MPMusicPlayerDemoAppDelegate.m */; };
+		4C53FA0713AAC83C007C349E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C53FA0513AAC83C007C349E /* MainWindow.xib */; };
+		4C53FA0A13AAC83C007C349E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C53FA0913AAC83C007C349E /* RootViewController.m */; };
+		4C53FA0D13AAC83C007C349E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C53FA0B13AAC83C007C349E /* RootViewController.xib */; };
+		4C53FA1513AAC85A007C349E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53FA1313AAC85A007C349E /* AudioToolbox.framework */; };
+		4C53FA1613AAC85A007C349E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53FA1413AAC85A007C349E /* MediaPlayer.framework */; };
+		4C53FA1A13AAC9B0007C349E /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C53FA1813AAC9B0007C349E /* PickerViewController.m */; };
+		4C53FA1B13AAC9B0007C349E /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C53FA1913AAC9B0007C349E /* PickerViewController.xib */; };
+		4C53FA2413AAC9F0007C349E /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C53FA2213AAC9F0007C349E /* PlayerViewController.m */; };
+		4C53FA2513AAC9F0007C349E /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C53FA2313AAC9F0007C349E /* PlayerViewController.xib */; };
+		4C53FA3113AACDB0007C349E /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C53FA2F13AACDB0007C349E /* Pause.png */; };
+		4C53FA3213AACDB0007C349E /* Play 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C53FA3013AACDB0007C349E /* Play 1.png */; };
+		4C53FA3413AACE3C007C349E /* Backward Previous 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C53FA3313AACE3C007C349E /* Backward Previous 1.png */; };
+		4C53FA3613AACE48007C349E /* Forward Next 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C53FA3513AACE48007C349E /* Forward Next 1.png */; };
+		4C53FA3813AACEE3007C349E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53FA3713AACEE3007C349E /* AVFoundation.framework */; };
+		4CC005C813AEAFE600244047 /* PlaylistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC005C713AEAFE600244047 /* PlaylistView.m */; };
+		4CC005E313AEE4D100244047 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC005E213AEE4D100244047 /* MyWindow.m */; };
+		4CC005E713AEECED00244047 /* herp_derp_hoss.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC005E413AEECED00244047 /* herp_derp_hoss.png */; };
+		4CC005E813AEECED00244047 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC005E513AEECED00244047 /* Icon.png */; };
+		4CC005E913AEECED00244047 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC005E613AEECED00244047 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C219D3313AB8624004362DE /* PlaylistTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistTableViewCell.h; sourceTree = "<group>"; };
+		4C219D3413AB8624004362DE /* PlaylistTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistTableViewCell.m; sourceTree = "<group>"; };
+		4C219D3913AB8646004362DE /* PlaylistTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistTableViewController.h; sourceTree = "<group>"; };
+		4C219D3A13AB8646004362DE /* PlaylistTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistTableViewController.m; sourceTree = "<group>"; };
+		4C219D3B13AB8646004362DE /* PlaylistTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaylistTableViewController.xib; sourceTree = "<group>"; };
+		4C53F9EF13AAC83C007C349E /* MPMusicPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPMusicPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C53F9F313AAC83C007C349E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C53F9F513AAC83C007C349E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C53F9F713AAC83C007C349E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C53F9FB13AAC83C007C349E /* MPMusicPlayerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPMusicPlayerDemo-Info.plist"; sourceTree = "<group>"; };
+		4C53F9FD13AAC83C007C349E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C53F9FF13AAC83C007C349E /* MPMusicPlayerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPMusicPlayerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4C53FA0013AAC83C007C349E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4C53FA0213AAC83C007C349E /* MPMusicPlayerDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MPMusicPlayerDemoAppDelegate.h; path = MPMusicPlayerDemo/MPMusicPlayerDemoAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4C53FA0313AAC83C007C349E /* MPMusicPlayerDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MPMusicPlayerDemoAppDelegate.m; path = MPMusicPlayerDemo/MPMusicPlayerDemoAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4C53FA0613AAC83C007C349E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4C53FA0813AAC83C007C349E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = RootViewController.h; path = MPMusicPlayerDemo/RootViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4C53FA0913AAC83C007C349E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = MPMusicPlayerDemo/RootViewController.m; sourceTree = "<group>"; };
+		4C53FA0C13AAC83C007C349E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		4C53FA1313AAC85A007C349E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4C53FA1413AAC85A007C349E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4C53FA1713AAC9B0007C349E /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewController.h; path = MPMusicPlayerDemo/PickerViewController.h; sourceTree = "<group>"; };
+		4C53FA1813AAC9B0007C349E /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewController.m; path = MPMusicPlayerDemo/PickerViewController.m; sourceTree = "<group>"; };
+		4C53FA1913AAC9B0007C349E /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PickerViewController.xib; path = MPMusicPlayerDemo/PickerViewController.xib; sourceTree = "<group>"; };
+		4C53FA2113AAC9F0007C349E /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerViewController.h; path = MPMusicPlayerDemo/PlayerViewController.h; sourceTree = "<group>"; };
+		4C53FA2213AAC9F0007C349E /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerViewController.m; path = MPMusicPlayerDemo/PlayerViewController.m; sourceTree = "<group>"; };
+		4C53FA2313AAC9F0007C349E /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayerViewController.xib; path = MPMusicPlayerDemo/PlayerViewController.xib; sourceTree = "<group>"; };
+		4C53FA2F13AACDB0007C349E /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		4C53FA3013AACDB0007C349E /* Play 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play 1.png"; sourceTree = "<group>"; };
+		4C53FA3313AACE3C007C349E /* Backward Previous 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Backward Previous 1.png"; sourceTree = "<group>"; };
+		4C53FA3513AACE48007C349E /* Forward Next 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward Next 1.png"; sourceTree = "<group>"; };
+		4C53FA3713AACEE3007C349E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4CC005C613AEAFE600244047 /* PlaylistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistView.h; sourceTree = "<group>"; };
+		4CC005C713AEAFE600244047 /* PlaylistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistView.m; sourceTree = "<group>"; };
+		4CC005E113AEE4D100244047 /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		4CC005E213AEE4D100244047 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyWindow.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4CC005E413AEECED00244047 /* herp_derp_hoss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = herp_derp_hoss.png; sourceTree = "<group>"; };
+		4CC005E513AEECED00244047 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4CC005E613AEECED00244047 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C53F9EC13AAC83C007C349E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C53FA3813AACEE3007C349E /* AVFoundation.framework in Frameworks */,
+				4C53FA1513AAC85A007C349E /* AudioToolbox.framework in Frameworks */,
+				4C53FA1613AAC85A007C349E /* MediaPlayer.framework in Frameworks */,
+				4C53F9F413AAC83C007C349E /* UIKit.framework in Frameworks */,
+				4C53F9F613AAC83C007C349E /* Foundation.framework in Frameworks */,
+				4C53F9F813AAC83C007C349E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C53F9E413AAC83C007C349E = {
+			isa = PBXGroup;
+			children = (
+				4CC005A813ADB67400244047 /* Common */,
+				4CC005A913ADB6BB00244047 /* PIcker */,
+				4C53F9F913AAC83C007C349E /* Playlist */,
+				4C53FA2E13AACD8D007C349E /* Resources */,
+				4C53F9F213AAC83C007C349E /* Frameworks */,
+				4C53F9F013AAC83C007C349E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C53F9F013AAC83C007C349E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C53F9EF13AAC83C007C349E /* MPMusicPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C53F9F213AAC83C007C349E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C53FA3713AACEE3007C349E /* AVFoundation.framework */,
+				4C53FA1313AAC85A007C349E /* AudioToolbox.framework */,
+				4C53FA1413AAC85A007C349E /* MediaPlayer.framework */,
+				4C53F9F313AAC83C007C349E /* UIKit.framework */,
+				4C53F9F513AAC83C007C349E /* Foundation.framework */,
+				4C53F9F713AAC83C007C349E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C53F9F913AAC83C007C349E /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				4C219D3313AB8624004362DE /* PlaylistTableViewCell.h */,
+				4C219D3413AB8624004362DE /* PlaylistTableViewCell.m */,
+				4C219D3913AB8646004362DE /* PlaylistTableViewController.h */,
+				4C219D3A13AB8646004362DE /* PlaylistTableViewController.m */,
+				4C219D3B13AB8646004362DE /* PlaylistTableViewController.xib */,
+				4CC005C613AEAFE600244047 /* PlaylistView.h */,
+				4CC005C713AEAFE600244047 /* PlaylistView.m */,
+			);
+			name = Playlist;
+			path = MPMusicPlayerDemo;
+			sourceTree = "<group>";
+		};
+		4C53F9FA13AAC83C007C349E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C53F9FB13AAC83C007C349E /* MPMusicPlayerDemo-Info.plist */,
+				4C53F9FC13AAC83C007C349E /* InfoPlist.strings */,
+				4C53F9FF13AAC83C007C349E /* MPMusicPlayerDemo-Prefix.pch */,
+				4C53FA0013AAC83C007C349E /* main.m */,
+			);
+			name = "Supporting Files";
+			path = MPMusicPlayerDemo;
+			sourceTree = "<group>";
+		};
+		4C53FA2E13AACD8D007C349E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CC005AA13ADB6F600244047 /* Images */,
+			);
+			name = Resources;
+			path = MPMusicPlayerDemo;
+			sourceTree = "<group>";
+		};
+		4CC005A813ADB67400244047 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4C53FA0513AAC83C007C349E /* MainWindow.xib */,
+				4CC005E113AEE4D100244047 /* MyWindow.h */,
+				4CC005E213AEE4D100244047 /* MyWindow.m */,
+				4C53FA0213AAC83C007C349E /* MPMusicPlayerDemoAppDelegate.h */,
+				4C53FA0313AAC83C007C349E /* MPMusicPlayerDemoAppDelegate.m */,
+				4C53FA2113AAC9F0007C349E /* PlayerViewController.h */,
+				4C53FA2213AAC9F0007C349E /* PlayerViewController.m */,
+				4C53FA2313AAC9F0007C349E /* PlayerViewController.xib */,
+				4C53FA0813AAC83C007C349E /* RootViewController.h */,
+				4C53FA0913AAC83C007C349E /* RootViewController.m */,
+				4C53FA0B13AAC83C007C349E /* RootViewController.xib */,
+				4C53F9FA13AAC83C007C349E /* Supporting Files */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		4CC005A913ADB6BB00244047 /* PIcker */ = {
+			isa = PBXGroup;
+			children = (
+				4C53FA1713AAC9B0007C349E /* PickerViewController.h */,
+				4C53FA1813AAC9B0007C349E /* PickerViewController.m */,
+				4C53FA1913AAC9B0007C349E /* PickerViewController.xib */,
+			);
+			name = PIcker;
+			sourceTree = "<group>";
+		};
+		4CC005AA13ADB6F600244047 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CC005E413AEECED00244047 /* herp_derp_hoss.png */,
+				4CC005E513AEECED00244047 /* Icon.png */,
+				4CC005E613AEECED00244047 /* Icon@2x.png */,
+				4C53FA3313AACE3C007C349E /* Backward Previous 1.png */,
+				4C53FA3513AACE48007C349E /* Forward Next 1.png */,
+				4C53FA2F13AACDB0007C349E /* Pause.png */,
+				4C53FA3013AACDB0007C349E /* Play 1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C53F9EE13AAC83C007C349E /* MPMusicPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C53FA1013AAC83C007C349E /* Build configuration list for PBXNativeTarget "MPMusicPlayerDemo" */;
+			buildPhases = (
+				4C53F9EB13AAC83C007C349E /* Sources */,
+				4C53F9EC13AAC83C007C349E /* Frameworks */,
+				4C53F9ED13AAC83C007C349E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPMusicPlayerDemo;
+			productName = MPMusicPlayerDemo;
+			productReference = 4C53F9EF13AAC83C007C349E /* MPMusicPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C53F9E613AAC83C007C349E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Barry Ezell";
+			};
+			buildConfigurationList = 4C53F9E913AAC83C007C349E /* Build configuration list for PBXProject "MPMusicPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C53F9E413AAC83C007C349E;
+			productRefGroup = 4C53F9F013AAC83C007C349E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C53F9EE13AAC83C007C349E /* MPMusicPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C53F9ED13AAC83C007C349E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C53F9FE13AAC83C007C349E /* InfoPlist.strings in Resources */,
+				4C53FA0713AAC83C007C349E /* MainWindow.xib in Resources */,
+				4C53FA0D13AAC83C007C349E /* RootViewController.xib in Resources */,
+				4C53FA1B13AAC9B0007C349E /* PickerViewController.xib in Resources */,
+				4C53FA2513AAC9F0007C349E /* PlayerViewController.xib in Resources */,
+				4C53FA3113AACDB0007C349E /* Pause.png in Resources */,
+				4C53FA3213AACDB0007C349E /* Play 1.png in Resources */,
+				4C53FA3413AACE3C007C349E /* Backward Previous 1.png in Resources */,
+				4C53FA3613AACE48007C349E /* Forward Next 1.png in Resources */,
+				4C219D3D13AB8646004362DE /* PlaylistTableViewController.xib in Resources */,
+				4CC005E713AEECED00244047 /* herp_derp_hoss.png in Resources */,
+				4CC005E813AEECED00244047 /* Icon.png in Resources */,
+				4CC005E913AEECED00244047 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C53F9EB13AAC83C007C349E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C53FA0113AAC83C007C349E /* main.m in Sources */,
+				4C53FA0413AAC83C007C349E /* MPMusicPlayerDemoAppDelegate.m in Sources */,
+				4C53FA0A13AAC83C007C349E /* RootViewController.m in Sources */,
+				4C53FA1A13AAC9B0007C349E /* PickerViewController.m in Sources */,
+				4C53FA2413AAC9F0007C349E /* PlayerViewController.m in Sources */,
+				4C219D3613AB8624004362DE /* PlaylistTableViewCell.m in Sources */,
+				4C219D3C13AB8646004362DE /* PlaylistTableViewController.m in Sources */,
+				4CC005C813AEAFE600244047 /* PlaylistView.m in Sources */,
+				4CC005E313AEE4D100244047 /* MyWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C53F9FC13AAC83C007C349E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C53F9FD13AAC83C007C349E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C53FA0513AAC83C007C349E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C53FA0613AAC83C007C349E /* en */,
+			);
+			name = MainWindow.xib;
+			path = MPMusicPlayerDemo;
+			sourceTree = "<group>";
+		};
+		4C53FA0B13AAC83C007C349E /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C53FA0C13AAC83C007C349E /* en */,
+			);
+			name = RootViewController.xib;
+			path = MPMusicPlayerDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C53FA0E13AAC83C007C349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C53FA0F13AAC83C007C349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4C53FA1113AAC83C007C349E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPMusicPlayerDemo/MPMusicPlayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MPMusicPlayerDemo/MPMusicPlayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C53FA1213AAC83C007C349E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPMusicPlayerDemo/MPMusicPlayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MPMusicPlayerDemo/MPMusicPlayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C53F9E913AAC83C007C349E /* Build configuration list for PBXProject "MPMusicPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C53FA0E13AAC83C007C349E /* Debug */,
+				4C53FA0F13AAC83C007C349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C53FA1013AAC83C007C349E /* Build configuration list for PBXNativeTarget "MPMusicPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C53FA1113AAC83C007C349E /* Debug */,
+				4C53FA1213AAC83C007C349E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C53F9E613AAC83C007C349E /* Project object */;
+}

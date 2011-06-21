@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C219D5313AD0F6C004362DE /* vib_0.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C219D5213AD0F6C004362DE /* vib_0.aiff */; };
+		4C227ACB13A6E4AB0054213E /* AppleXylophoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C227AC913A6E4AB0054213E /* AppleXylophoneViewController.m */; };
+		4C227ACC13A6E4AB0054213E /* AppleXylophoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C227ACA13A6E4AB0054213E /* AppleXylophoneViewController.xib */; };
+		4C227ADA13A6E6960054213E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C227AD613A6E6960054213E /* AVFoundation.framework */; };
+		4C227ADB13A6E6960054213E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C227AD713A6E6960054213E /* MediaPlayer.framework */; };
+		4C227ADE13A6E6B20054213E /* MixerHostAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C227ADD13A6E6B20054213E /* MixerHostAudio.m */; };
+		4C227AE013A6E7120054213E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C227ADF13A6E7120054213E /* AudioToolbox.framework */; };
+		4C227AE913A6E7B00054213E /* vib_1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C227AE213A6E7B00054213E /* vib_1.aiff */; };
+		4C227AEA13A6E7B00054213E /* vib_2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C227AE313A6E7B00054213E /* vib_2.aiff */; };
+		4C227AEB13A6E7B00054213E /* vib_3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C227AE413A6E7B00054213E /* vib_3.aiff */; };
+		4C227AEC13A6E7B00054213E /* vib_4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C227AE513A6E7B00054213E /* vib_4.aiff */; };
+		4C227AED13A6E7B00054213E /* vib_5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C227AE613A6E7B00054213E /* vib_5.aiff */; };
+		4C79ACA2139133D80084E6A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C79ACA1139133D80084E6A8 /* UIKit.framework */; };
+		4C79ACA4139133D80084E6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C79ACA3139133D80084E6A8 /* Foundation.framework */; };
+		4C79ACA6139133D80084E6A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C79ACA5139133D80084E6A8 /* CoreGraphics.framework */; };
+		4C79ACAC139133D80084E6A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C79ACAA139133D80084E6A8 /* InfoPlist.strings */; };
+		4C79ACAF139133D80084E6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79ACAE139133D80084E6A8 /* main.m */; };
+		4C79ACB2139133D80084E6A8 /* AudioMeetupDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79ACB1139133D80084E6A8 /* AudioMeetupDemoAppDelegate.m */; };
+		4C79ACB5139133D90084E6A8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C79ACB3139133D90084E6A8 /* MainWindow.xib */; };
+		4CFB76F313AA9B500014CDA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB76F213AA9B500014CDA8 /* Default.png */; };
+		4CFB76F513AA9B5E0014CDA8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB76F413AA9B5E0014CDA8 /* Default@2x.png */; };
+		4CFB76F713AA9DFB0014CDA8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB76F613AA9DFB0014CDA8 /* Icon.png */; };
+		4CFB76F913AA9E030014CDA8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB76F813AA9E030014CDA8 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C219D5213AD0F6C004362DE /* vib_0.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vib_0.aiff; sourceTree = "<group>"; };
+		4C227AC813A6E4AB0054213E /* AppleXylophoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleXylophoneViewController.h; sourceTree = "<group>"; };
+		4C227AC913A6E4AB0054213E /* AppleXylophoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleXylophoneViewController.m; sourceTree = "<group>"; };
+		4C227ACA13A6E4AB0054213E /* AppleXylophoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleXylophoneViewController.xib; sourceTree = "<group>"; };
+		4C227AD513A6E6960054213E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		4C227AD613A6E6960054213E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C227AD713A6E6960054213E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4C227ADC13A6E6B20054213E /* MixerHostAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixerHostAudio.h; sourceTree = "<group>"; };
+		4C227ADD13A6E6B20054213E /* MixerHostAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixerHostAudio.m; sourceTree = "<group>"; };
+		4C227ADF13A6E7120054213E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4C227AE213A6E7B00054213E /* vib_1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vib_1.aiff; sourceTree = "<group>"; };
+		4C227AE313A6E7B00054213E /* vib_2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vib_2.aiff; sourceTree = "<group>"; };
+		4C227AE413A6E7B00054213E /* vib_3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vib_3.aiff; sourceTree = "<group>"; };
+		4C227AE513A6E7B00054213E /* vib_4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vib_4.aiff; sourceTree = "<group>"; };
+		4C227AE613A6E7B00054213E /* vib_5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vib_5.aiff; sourceTree = "<group>"; };
+		4C79AC9D139133D80084E6A8 /* AudioMeetupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMeetupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C79ACA1139133D80084E6A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C79ACA3139133D80084E6A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C79ACA5139133D80084E6A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C79ACA9139133D80084E6A8 /* AudioMeetupDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioMeetupDemo-Info.plist"; sourceTree = "<group>"; };
+		4C79ACAB139133D80084E6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C79ACAD139133D80084E6A8 /* AudioMeetupDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioMeetupDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4C79ACAE139133D80084E6A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C79ACB0139133D80084E6A8 /* AudioMeetupDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioMeetupDemoAppDelegate.h; sourceTree = "<group>"; };
+		4C79ACB1139133D80084E6A8 /* AudioMeetupDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioMeetupDemoAppDelegate.m; sourceTree = "<group>"; };
+		4C79ACB4139133D90084E6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4CFB76F213AA9B500014CDA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		4CFB76F413AA9B5E0014CDA8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		4CFB76F613AA9DFB0014CDA8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		4CFB76F813AA9E030014CDA8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C79AC9A139133D80084E6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C79ACA4139133D80084E6A8 /* Foundation.framework in Frameworks */,
+				4C227AE013A6E7120054213E /* AudioToolbox.framework in Frameworks */,
+				4C227ADA13A6E6960054213E /* AVFoundation.framework in Frameworks */,
+				4C227ADB13A6E6960054213E /* MediaPlayer.framework in Frameworks */,
+				4C79ACA2139133D80084E6A8 /* UIKit.framework in Frameworks */,
+				4C79ACA6139133D80084E6A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C227ACD13A6E4BC0054213E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C227AD313A6E4F30054213E /* Audio */,
+				4C227AD213A6E4DF0054213E /* Images */,
+			);
+			name = Resources;
+			path = AudioMeetupDemo;
+			sourceTree = "<group>";
+		};
+		4C227AD213A6E4DF0054213E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CFB76F813AA9E030014CDA8 /* Icon@2x.png */,
+				4CFB76F613AA9DFB0014CDA8 /* Icon.png */,
+				4CFB76F413AA9B5E0014CDA8 /* Default@2x.png */,
+				4CFB76F213AA9B500014CDA8 /* Default.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4C227AD313A6E4F30054213E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4C219D5213AD0F6C004362DE /* vib_0.aiff */,
+				4C227AE213A6E7B00054213E /* vib_1.aiff */,
+				4C227AE313A6E7B00054213E /* vib_2.aiff */,
+				4C227AE413A6E7B00054213E /* vib_3.aiff */,
+				4C227AE513A6E7B00054213E /* vib_4.aiff */,
+				4C227AE613A6E7B00054213E /* vib_5.aiff */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		4C79AC92139133D80084E6A8 = {
+			isa = PBXGroup;
+			children = (
+				4C79ACA7139133D80084E6A8 /* AudioMeetupDemo */,
+				4C227ACD13A6E4BC0054213E /* Resources */,
+				4C79ACA0139133D80084E6A8 /* Frameworks */,
+				4C79AC9E139133D80084E6A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C79AC9E139133D80084E6A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C79AC9D139133D80084E6A8 /* AudioMeetupDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C79ACA0139133D80084E6A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C227ADF13A6E7120054213E /* AudioToolbox.framework */,
+				4C227AD513A6E6960054213E /* AudioUnit.framework */,
+				4C227AD613A6E6960054213E /* AVFoundation.framework */,
+				4C227AD713A6E6960054213E /* MediaPlayer.framework */,
+				4C79ACA1139133D80084E6A8 /* UIKit.framework */,
+				4C79ACA3139133D80084E6A8 /* Foundation.framework */,
+				4C79ACA5139133D80084E6A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C79ACA7139133D80084E6A8 /* AudioMeetupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4C79ACB0139133D80084E6A8 /* AudioMeetupDemoAppDelegate.h */,
+				4C79ACB1139133D80084E6A8 /* AudioMeetupDemoAppDelegate.m */,
+				4C227AC813A6E4AB0054213E /* AppleXylophoneViewController.h */,
+				4C227AC913A6E4AB0054213E /* AppleXylophoneViewController.m */,
+				4C227ACA13A6E4AB0054213E /* AppleXylophoneViewController.xib */,
+				4C79ACB3139133D90084E6A8 /* MainWindow.xib */,
+				4C227ADC13A6E6B20054213E /* MixerHostAudio.h */,
+				4C227ADD13A6E6B20054213E /* MixerHostAudio.m */,
+				4C79ACA8139133D80084E6A8 /* Supporting Files */,
+			);
+			path = AudioMeetupDemo;
+			sourceTree = "<group>";
+		};
+		4C79ACA8139133D80084E6A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C79ACA9139133D80084E6A8 /* AudioMeetupDemo-Info.plist */,
+				4C79ACAA139133D80084E6A8 /* InfoPlist.strings */,
+				4C79ACAD139133D80084E6A8 /* AudioMeetupDemo-Prefix.pch */,
+				4C79ACAE139133D80084E6A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C79AC9C139133D80084E6A8 /* AudioMeetupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C79ACBE139133D90084E6A8 /* Build configuration list for PBXNativeTarget "AudioMeetupDemo" */;
+			buildPhases = (
+				4C79AC99139133D80084E6A8 /* Sources */,
+				4C79AC9A139133D80084E6A8 /* Frameworks */,
+				4C79AC9B139133D80084E6A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioMeetupDemo;
+			productName = AudioMeetupDemo;
+			productReference = 4C79AC9D139133D80084E6A8 /* AudioMeetupDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C79AC94139133D80084E6A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "DOCKMARKET LLC";
+			};
+			buildConfigurationList = 4C79AC97139133D80084E6A8 /* Build configuration list for PBXProject "AudioMeetupDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C79AC92139133D80084E6A8;
+			productRefGroup = 4C79AC9E139133D80084E6A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C79AC9C139133D80084E6A8 /* AudioMeetupDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C79AC9B139133D80084E6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C79ACAC139133D80084E6A8 /* InfoPlist.strings in Resources */,
+				4C79ACB5139133D90084E6A8 /* MainWindow.xib in Resources */,
+				4C227ACC13A6E4AB0054213E /* AppleXylophoneViewController.xib in Resources */,
+				4C227AE913A6E7B00054213E /* vib_1.aiff in Resources */,
+				4C227AEA13A6E7B00054213E /* vib_2.aiff in Resources */,
+				4C227AEB13A6E7B00054213E /* vib_3.aiff in Resources */,
+				4C227AEC13A6E7B00054213E /* vib_4.aiff in Resources */,
+				4C227AED13A6E7B00054213E /* vib_5.aiff in Resources */,
+				4CFB76F313AA9B500014CDA8 /* Default.png in Resources */,
+				4CFB76F513AA9B5E0014CDA8 /* Default@2x.png in Resources */,
+				4CFB76F713AA9DFB0014CDA8 /* Icon.png in Resources */,
+				4CFB76F913AA9E030014CDA8 /* Icon@2x.png in Resources */,
+				4C219D5313AD0F6C004362DE /* vib_0.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C79AC99139133D80084E6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C79ACAF139133D80084E6A8 /* main.m in Sources */,
+				4C79ACB2139133D80084E6A8 /* AudioMeetupDemoAppDelegate.m in Sources */,
+				4C227ACB13A6E4AB0054213E /* AppleXylophoneViewController.m in Sources */,
+				4C227ADE13A6E6B20054213E /* MixerHostAudio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C79ACAA139133D80084E6A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C79ACAB139133D80084E6A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C79ACB3139133D90084E6A8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C79ACB4139133D90084E6A8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C79ACBC139133D90084E6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C79ACBD139133D90084E6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4C79ACBF139133D90084E6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioMeetupDemo/AudioMeetupDemo-Prefix.pch";
+				INFOPLIST_FILE = "AudioMeetupDemo/AudioMeetupDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C79ACC0139133D90084E6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioMeetupDemo/AudioMeetupDemo-Prefix.pch";
+				INFOPLIST_FILE = "AudioMeetupDemo/AudioMeetupDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C79AC97139133D80084E6A8 /* Build configuration list for PBXProject "AudioMeetupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C79ACBC139133D90084E6A8 /* Debug */,
+				4C79ACBD139133D90084E6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C79ACBE139133D90084E6A8 /* Build configuration list for PBXNativeTarget "AudioMeetupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C79ACBF139133D90084E6A8 /* Debug */,
+				4C79ACC0139133D90084E6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C79AC94139133D80084E6A8 /* Project object */;
+}
